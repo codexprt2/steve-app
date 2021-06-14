@@ -1,0 +1,68 @@
+.wrapper {
+	position: relative;
+}
+.container {
+	background-color: #2c2d30;
+	left: 30px;
+	position: fixed;
+	top: 50px;
+	width: 278px;
+	z-index: 9999;
+	display: block;
+	left: -285px;
+	box-shadow: 3px 3px 3px #202125, -3px -3px 3px #353535;
+	border-radius: 2rem;
+	padding: 2rem;
+	left: -278px;
+}
+.toggle {
+	position: absolute;
+	right: -70px;
+	top: 0;
+}
+
+.settingDiv {
+	box-shadow: 3px 3px 3px #202125, -3px -3px 3px #353535;
+	border-radius: 1rem;
+	display: inline-block !important;
+}
+.inner {
+	border-radius: 1rem;
+	display: block !important;
+	text-decoration: none;
+	position: relative;
+	outline: 0;
+}
+
+.mode {
+	position: absolute;
+	right: -130px;
+	top: 0;
+}
+.outer {
+	box-shadow: 3px 3px 3px #202125, -3px -3px 3px #353535;
+	border-radius: 1rem;
+	display: inline-block !important;
+}
+.cardContainer {
+	display: flex;
+	flex-wrap: wrap;
+
+	margin-top: 40px;
+}
+.card1 {
+	flex: 0 0 75%;
+	max-width: 75%;
+	padding-right: 15px;
+	padding-left: 15px;
+	order: 1;
+	background-color: aqua;
+}
+.card2 {
+	flex: 0 0 25%;
+	max-width: 25%;
+	margin-bottom: 0 !important;
+	padding-left: 0 !important;
+	order: 2;
+	background-color: blueviolet;
+}

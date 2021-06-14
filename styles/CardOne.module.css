@@ -1,0 +1,12 @@
+.cardContainer {
+	display: block;
+}
+.heading {
+	display: block;
+}
+.content {
+	display: block;
+}
+.btnContainer {
+	display: flex;
+}

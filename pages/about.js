@@ -1,5 +1,5 @@
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
-	return <div>Home Screen</div>;
+	return <div>about Screen</div>;
 }
