@@ -1,13 +1,42 @@
 .cardContainer {
 	display: block;
 	background-color: cadetblue;
+	border-radius: 2rem;
+	height: 85vh;
 }
 .heading {
 	display: block;
+	text-align: center;
+	padding-top: 64px;
 }
 .content {
 	display: block;
 }
+
 .btnContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.btnContent {
+	border-radius: 50%;
+	background-color: brown;
+	margin-right: 10px;
+	padding: 10px;
+}
+.lineContainer {
+	padding-top: 30px;
+}
+
+.downloadContent {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 92px;
+}
+.cvContainer {
+	display: flex;
+	justify-content: flex-end;
+}
+.printContainer {
 	display: flex;
 }

@@ -46,21 +46,23 @@
 }
 .cardContainer {
 	display: flex;
-	margin-top: 40px;
+	margin-top: 100px;
+	margin-right: 70px;
+	margin-left: 85px;
 }
 .card1 {
 	flex: 0 0 75%;
 	max-width: 75%;
-	padding-right: 15px;
-	padding-left: 15px;
+	padding-right: 20px;
+	padding-left: 20px;
 	order: 1;
-	background-color: aqua;
 }
 .card2 {
 	flex: 0 0 25%;
 	max-width: 25%;
+	/* padding-top: 20px; */
 	order: 2;
-	background-color: blueviolet;
-	padding-right: 15px;
-	padding-left: 15px;
+
+	padding-right: 20px;
+	padding-left: 20px;
 }

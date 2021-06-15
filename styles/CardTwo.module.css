@@ -1,4 +1,6 @@
 .cardContainer {
 	display: block;
 	background-color: cadetblue;
+	border-radius: 2rem;
+	height: 130vh;
 }
