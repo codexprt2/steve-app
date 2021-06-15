@@ -11,6 +11,7 @@ import {
 	AiFillLinkedin,
 	AiFillGithub,
 	AiFillYoutube,
+	AiFillPrinter,
 } from "react-icons/ai";
 
 const CardOne = () => {
@@ -47,15 +48,9 @@ const CardOne = () => {
 						<AiFillYoutube />
 					</div>
 				</div>
-
-				<IconContext.Provider
-					value={{
-						size: "4rem",
-					}}>
-					<div className={styles.lineContainer}>
-						<CgLoadbarAlt />
-					</div>
-				</IconContext.Provider>
+				<div className={styles.lineContainer}>
+					<CgLoadbarAlt size={50} />
+				</div>
 			</div>
 
 			<div className={styles.downloadContent}>
@@ -63,11 +58,13 @@ const CardOne = () => {
 					<div className={styles.btnContent}>
 						<IoIosArrowDropdown />
 					</div>
-					<div>Download CV</div>
+					<div className={styles.download}>Download CV</div>
 				</div>
 				<div className={styles.printContainer}>
-					<div>Button</div>
-					<div>Download CV</div>
+					<div className={styles.btnContent}>
+						<AiFillPrinter />
+					</div>
+					<div className={styles.download}>Download CV</div>
 				</div>
 			</div>
 		</div>
