@@ -1,6 +1,6 @@
 .cardContainer {
 	display: block;
-	background-color: cadetblue;
+	box-shadow: inset 3px 3px 3px #202125, inset -3px -3px 3px #353535;
 	border-radius: 2rem;
 	height: 85vh;
 }
@@ -20,9 +20,12 @@
 }
 .btnContent {
 	border-radius: 50%;
-	background-color: brown;
+	background-color: rgb(102, 91, 91);
 	margin-right: 10px;
 	padding: 10px;
+	align-items: center;
+	display: flex;
+	justify-content: center;
 }
 .lineContainer {
 	padding-top: 30px;
