@@ -1,0 +1,15 @@
+.title {
+	padding: 0.4125rem 1.5625rem;
+	position: relative;
+	text-align: center;
+	text-transform: uppercase;
+	box-shadow: 3px 3px 3px #202125, -3px -3px 3px #353535;
+	border-radius: 1rem;
+	background-color: #2c2d30;
+	color: #fafafa;
+	font-size: 0.875rem;
+}
+.mainContainer {
+	transform: rotate(90deg);
+	margin-top: 30px;
+}

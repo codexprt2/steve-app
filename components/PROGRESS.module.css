@@ -1,0 +1,19 @@
+.mainContainer {
+	position: relative;
+	background-color: #202125;
+	border-radius: 2rem;
+	width: 52vw;
+	box-shadow: inset 3px 3px 3px #202125, inset -3px -3px 3px #353535;
+	height: 15px;
+}
+.mainContent {
+	position: absolute;
+	background-color: wheat;
+	border-radius: 1rem;
+	box-shadow: 3px 3px 3px #202125, -3px -3px 3px #353535;
+	width: 60%;
+	height: 50%;
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}

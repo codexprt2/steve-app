@@ -1,5 +1,7 @@
 import styles from "./About.module.css";
 import { CgLoadbarAlt } from "react-icons/cg";
+import CustomizedProgressBars from "../components/ProgressBar";
+import VerticalComponent from "../components/VerticalComponent";
 
 const About = () => {
 	return (
@@ -72,6 +74,86 @@ const About = () => {
 				<div className={styles.aboutContent}>PROFESSIONAL SKILLS</div>
 				<div>
 					<CgLoadbarAlt size={50} />
+				</div>
+			</div>
+			<div className={styles.progressContainer}>
+				<div className={styles.progressContent}>
+					<div className={styles.progress}>
+						<div className={styles.aboutContainer}>
+							<div className={styles.pregressbarContent}>PHOTOSHOP</div>
+							<div className={styles.progressbarContainer}>
+								<CustomizedProgressBars />
+							</div>
+						</div>
+						<div className={styles.aboutContainer}>
+							<div className={styles.pregressbarContent}>ILLUSTRATOR</div>
+							<div className={styles.progressbarContainer}>
+								<CustomizedProgressBars />
+							</div>
+						</div>
+						<div className={styles.aboutContainer}>
+							<div className={styles.pregressbarContent}>INDESIGN</div>
+							<div className={styles.progressbarContainer}>
+								<CustomizedProgressBars />
+							</div>
+						</div>
+					</div>
+					<div className={styles.elementDiv}>
+						<VerticalComponent name='Design' />
+					</div>
+				</div>
+				<br />
+				<div className={styles.progressContent}>
+					<div className={styles.progress}>
+						<div className={styles.aboutContainer}>
+							<div className={styles.pregressbarContent}>HTML-CSS</div>
+							<div className={styles.progressbarContainer}>
+								<CustomizedProgressBars />
+							</div>
+						</div>
+						<div className={styles.aboutContainer}>
+							<div className={styles.pregressbarContent}>JAVASCRIPT</div>
+							<div className={styles.progressbarContainer}>
+								<CustomizedProgressBars />
+							</div>
+						</div>
+						<div className={styles.aboutContainer}>
+							<div className={styles.pregressbarContent}>PHP-MYSQL</div>
+							<div className={styles.progressbarContainer}>
+								<CustomizedProgressBars />
+							</div>
+						</div>
+					</div>
+					<div className={styles.elementDiv}>
+						<VerticalComponent name='CODING' />
+					</div>
+				</div>
+				<br />
+
+				<div className={styles.progressContent}>
+					<div className={styles.progress}>
+						<div className={styles.aboutContainer}>
+							<div className={styles.pregressbarContent}>RESPONSIBLE</div>
+							<div className={styles.progressbarContainer}>
+								<CustomizedProgressBars />
+							</div>
+						</div>
+						<div className={styles.aboutContainer}>
+							<div className={styles.pregressbarContent}>CREATIVE</div>
+							<div className={styles.progressbarContainer}>
+								<CustomizedProgressBars />
+							</div>
+						</div>
+						<div className={styles.aboutContainer}>
+							<div className={styles.pregressbarContent}>MULTITASKING</div>
+							<div className={styles.progressbarContainer}>
+								<CustomizedProgressBars />
+							</div>
+						</div>
+					</div>
+					<div className={styles.elementDiv}>
+						<VerticalComponent name='ASSETS' />
+					</div>
 				</div>
 			</div>
 		</div>

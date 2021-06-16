@@ -3,7 +3,7 @@
 	display: block;
 	box-shadow: 3px 3px 3px #202125, -3px -3px 3px #353535;
 	border-radius: 2rem;
-	height: 150vh;
+	min-height: 150vh;
 }
 .aboutContainer {
 	display: block;
@@ -99,4 +99,25 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+.progressbarContainer {
+	display: flex;
+	margin-top: 10px;
+}
+.pregressbarContent {
+	font-weight: 600;
+	text-transform: uppercase !important;
+	color: #fafafa;
+	margin-top: 10px;
+	font-size: 14px;
+}
+.progressContent {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.elementDiv {
+	width: 20%;
+	flex-grow: 1;
+	display: flex;
 }
