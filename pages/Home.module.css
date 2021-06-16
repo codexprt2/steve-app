@@ -1,6 +1,6 @@
 .cardContainer {
 	display: block;
-	box-shadow: inset 3px 3px 3px #202125, inset -3px -3px 3px #353535;
+	box-shadow: 3px 3px 3px #202125, -3px -3px 3px #353535;
 	border-radius: 2rem;
 	height: 85vh;
 }

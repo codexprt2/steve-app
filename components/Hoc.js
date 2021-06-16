@@ -2,7 +2,7 @@ import React from "react";
 import styles from "../styles/Hoc.module.css";
 import SettingsIcon from "@material-ui/icons/Settings";
 import FlareIcon from "@material-ui/icons/Flare";
-import CardOne from "./CardOne";
+// import CardOne from "./CardOne";
 import CardTwo from "./CardTwo";
 
 const Hoc = ({ children }) => {
@@ -27,7 +27,9 @@ const Hoc = ({ children }) => {
 			</div>
 			<div className={styles.cardContainer}>
 				<div className={styles.card1}>
-					<CardOne />
+					{children}
+
+					{/* <CardOne /> */}
 				</div>
 
 				<div className={styles.card2}>

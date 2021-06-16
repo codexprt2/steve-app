@@ -5,6 +5,7 @@ import { ImUser } from "react-icons/im";
 import { GrCamera } from "react-icons/gr";
 import { TiMessages } from "react-icons/ti";
 import { CgMail } from "react-icons/cg";
+import Link from "next/link";
 
 import Image from "next/image";
 import { style } from "@material-ui/system";
@@ -29,7 +30,7 @@ const CardTwo = () => {
 				<p>Full Stack Developer</p>
 			</div>
 			<div className={styles.pageContainer}>
-				<a href='/home'>
+				<Link href='/'>
 					<div className={styles.homeContainer}>
 						<div style={{ alignItems: "center" }}>
 							<span className={styles.element}>Home</span>
@@ -39,8 +40,8 @@ const CardTwo = () => {
 							<HiHome size={20} />
 						</div>
 					</div>
-				</a>
-				<a href='/about'>
+				</Link>
+				<Link href='/about'>
 					<div className={styles.homeContainer}>
 						<div style={{ alignItems: "center" }}>
 							<span className={styles.element}>About</span>
@@ -50,8 +51,8 @@ const CardTwo = () => {
 							<ImUser size={20} />
 						</div>
 					</div>
-				</a>
-				<a href='/portfolio'>
+				</Link>
+				<Link href='/portfolio'>
 					<div className={styles.homeContainer}>
 						<div style={{ alignItems: "center" }}>
 							<span className={styles.element}>PortFolio</span>
@@ -61,8 +62,8 @@ const CardTwo = () => {
 							<GrCamera size={20} />
 						</div>
 					</div>
-				</a>
-				<a href='/blog'>
+				</Link>
+				<Link href='/blog'>
 					<div className={styles.homeContainer}>
 						<div style={{ alignItems: "center" }}>
 							<span className={styles.element}>Blog</span>
@@ -72,8 +73,8 @@ const CardTwo = () => {
 							<TiMessages size={20} />
 						</div>
 					</div>
-				</a>
-				<a href='/contact'>
+				</Link>
+				<Link href='/contact'>
 					<div className={styles.homeContainer}>
 						<div style={{ alignItems: "center" }}>
 							<span className={styles.element}>Contact</span>
@@ -83,7 +84,7 @@ const CardTwo = () => {
 							<CgMail size={20} />
 						</div>
 					</div>
-				</a>
+				</Link>
 			</div>
 		</div>
 	);
