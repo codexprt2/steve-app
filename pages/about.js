@@ -2,7 +2,8 @@ import styles from "./About.module.css";
 import { CgLoadbarAlt } from "react-icons/cg";
 import CustomizedProgressBars from "../components/ProgressBar";
 import VerticalComponent from "../components/VerticalComponent";
-
+import ExperienceComponent from "../components/ExperienceComponent";
+import ContentComponent from "../components/ContentComponent";
 const About = () => {
 	return (
 		<div className={styles.mainContainer}>
@@ -153,6 +154,23 @@ const About = () => {
 					</div>
 					<div className={styles.elementDiv}>
 						<VerticalComponent name='ASSETS' />
+					</div>
+				</div>
+			</div>
+
+			<div className={styles.experienceContainer}>
+				<div className={styles.aboutContainer}>
+					<div className={styles.aboutContent}>EXPERIENCE</div>
+					<div>
+						<CgLoadbarAlt size={50} />
+					</div>
+				</div>
+				<div className={styles.experienxeContent}>
+					<div className={styles.experienceDiv}>
+						<ExperienceComponent />
+					</div>
+					<div className={styles.list}>
+						<ContentComponent />
 					</div>
 				</div>
 			</div>
