@@ -1,9 +1,11 @@
 import styles from "./About.module.css";
 import { CgLoadbarAlt } from "react-icons/cg";
+import { FaGraduationCap } from "react-icons/fa";
 import CustomizedProgressBars from "../components/ProgressBar";
 import VerticalComponent from "../components/VerticalComponent";
 import ExperienceComponent from "../components/ExperienceComponent";
 import ContentComponent from "../components/ContentComponent";
+import ServiceContent from "../components/ServiceContent";
 const About = () => {
 	return (
 		<div className={styles.mainContainer}>
@@ -172,6 +174,33 @@ const About = () => {
 					<div className={styles.list}>
 						<ContentComponent />
 					</div>
+				</div>
+			</div>
+			<div className={styles.experienceContainer}>
+				<div className={styles.aboutContainer}>
+					<div className={styles.aboutContent}>EDUCATION</div>
+					<div>
+						<CgLoadbarAlt size={50} />
+					</div>
+				</div>
+				<div className={styles.experienxeContent}>
+					<div className={styles.experienceDiv}>
+						<ExperienceComponent />
+					</div>
+					<div className={styles.list}>
+						<ContentComponent />
+					</div>
+				</div>
+			</div>
+			<div className={styles.serviceContainer}>
+				<div className={styles.aboutContainer}>
+					<div className={styles.aboutContent}>SERVICES</div>
+					<div>
+						<CgLoadbarAlt size={50} />
+					</div>
+				</div>
+				<div className={styles.serviceContent}>
+					<ServiceContent />
 				</div>
 			</div>
 		</div>
