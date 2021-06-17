@@ -1,4 +1,5 @@
 .mainContainer {
+	display: block;
 }
 .mainContent {
 	display: flex;
