@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./EXPERIENCE.module.css";
 import { RiBriefcase4Line } from "react-icons/ri";
-import ProgressBar from "./ProgressBar";
 
 const ExperienceComponent = () => {
 	return (
