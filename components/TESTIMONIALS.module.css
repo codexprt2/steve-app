@@ -1,0 +1,9 @@
+.mainContainer {
+	margin-top: 40px;
+}
+
+.aboutContent {
+	font-weight: 700;
+	text-transform: uppercase !important;
+	color: #fafafa;
+}

@@ -6,6 +6,8 @@ import VerticalComponent from "../components/VerticalComponent";
 import ExperienceComponent from "../components/ExperienceComponent";
 import ContentComponent from "../components/ContentComponent";
 import ServiceContent from "../components/ServiceContent";
+import TestimonialsComponent from "../components/TestimonialsComponent";
+import CertificatsComponent from "../components/CertificatsComponent";
 const About = () => {
 	return (
 		<div className={styles.mainContainer}>
@@ -202,6 +204,13 @@ const About = () => {
 				<div className={styles.serviceContent}>
 					<ServiceContent />
 				</div>
+			</div>
+
+			<div>
+				<TestimonialsComponent />
+			</div>
+			<div>
+				<CertificatsComponent />
 			</div>
 		</div>
 	);

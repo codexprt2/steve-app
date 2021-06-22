@@ -1,0 +1,77 @@
+.mainContainer {
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: -15px;
+	margin-left: -15px;
+	text-align: center !important;
+}
+.mainContent {
+	flex-basis: 0;
+	flex-grow: 1;
+	max-width: 100%;
+	position: relative;
+	width: 100%;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.ulContainer {
+	padding-left: 0 !important;
+	margin-bottom: 0 !important;
+	display: block;
+	list-style-type: disc;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	padding-inline-start: 40px;
+	text-align: center !important;
+	list-style: none;
+}
+.liContainer {
+	display: inline-block;
+	font-size: 0.8125rem;
+	text-transform: uppercase;
+	font-weight: 500;
+	border-radius: 2rem;
+}
+.aContainer {
+	padding: 0.5rem 1.125rem;
+	display: block;
+	border-radius: 2rem;
+	background-color: transparent;
+	text-decoration: none;
+	position: relative;
+	outline: 0;
+	font-size: 0.8125rem;
+	text-transform: uppercase;
+	font-weight: 500;
+	margin: 3px;
+	cursor: pointer;
+}
+.aContainer:hover {
+	box-shadow: inset 3px 3px 3px #202125, inset -3px -3px 3px #353535;
+	transition: all 0.3s ease 0s;
+}
+.aContaineractive {
+	color: #7369b9;
+	box-shadow: inset 3px 3px 3px #202125, inset -3px -3px 3px #353535;
+	transition: all 0.3s ease 0s;
+	padding: 0.5rem 1.125rem;
+	display: block;
+	border-radius: 2rem;
+	background-color: transparent;
+	text-decoration: none;
+	position: relative;
+	outline: 0;
+	font-size: 0.8125rem;
+	text-transform: uppercase;
+	font-weight: 500;
+	margin: 3px;
+}
+.lineDiv {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}

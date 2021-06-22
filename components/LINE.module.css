@@ -1,0 +1,20 @@
+.dividerContainer {
+	width: 3.75rem;
+	position: relative;
+	box-shadow: inset 1.5px 1.5px 1.5px #202125, inset -1.5px -1.5px 1.5px #353535;
+	height: 0.5rem;
+	border-radius: 1em;
+	border: 0;
+	float: left !important;
+}
+.dividerContainer:after {
+	position: absolute;
+	content: "";
+	height: 0.25rem;
+	background: #7369b9;
+	width: 50%;
+	border-radius: 3em;
+	left: 0.5rem;
+	top: 50%;
+	transform: translateY(-50%);
+}

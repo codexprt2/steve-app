@@ -6,11 +6,11 @@
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
+	margin-top: 60px;
 }
 .contentDiv {
 	flex: 0 0 33.333333%;
 	max-width: 33.333333%;
-	text-align: center !important;
 }
 .iconContainer {
 	border-radius: 2rem;
@@ -34,10 +34,35 @@
 	height: 3.3rem;
 }
 .title {
-	margin-top: 60px;
+	margin-top: 40px;
 	text-align: center;
+	font-weight: 600;
+	font-size: 0.9375rem;
+	color: #fafafa;
 }
 .center {
 	text-align: center;
 	position: relative;
+}
+.serviceIcon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.content {
+	margin-bottom: 0 !important;
+	margin-top: 10px;
+	font-size: 0.9375rem;
+	color: #fafafa;
+	margin-left: 10px;
+	text-align: center !important;
+	line-height: 1.7;
+	letter-spacing: 0.02rem;
+}
+.lineContent {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
+	margin-bottom: 10px;
 }
