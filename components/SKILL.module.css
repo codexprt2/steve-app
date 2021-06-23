@@ -48,6 +48,7 @@
 	font-weight: 500;
 	margin: 3px;
 	cursor: pointer;
+	color: #9da1a5;
 }
 .aContainer:hover {
 	box-shadow: inset 3px 3px 3px #202125, inset -3px -3px 3px #353535;
@@ -74,4 +75,34 @@
 	justify-content: center;
 	align-items: center;
 	margin-top: 20px;
+}
+.categoryProject {
+	margin-top: 20px;
+}
+.downloadContent {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 30px;
+}
+.cvContainer {
+	display: flex;
+	justify-content: flex-end;
+}
+.printContainer {
+	display: flex;
+}
+.btnContent {
+	border-radius: 50%;
+	background-color: rgb(102, 91, 91);
+	margin-right: 10px;
+	padding: 10px;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+.download {
+	padding: 10px;
+	color: #9da1a5 !important;
 }

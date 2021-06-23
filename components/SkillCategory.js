@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import styles from "./SKILL.module.css";
 import LineComponent from "./LineComponent";
+import CategoryProject from "./CategoryProject";
+import { IoIosArrowDropdown } from "react-icons/io";
+import { AiFillPrinter } from "react-icons/ai";
 
 const SkillCategory = () => {
 	const [isAllSelected, setIsAllSelected] = useState(false);
@@ -77,6 +80,26 @@ const SkillCategory = () => {
 			</div>
 			<div className={styles.lineDiv}>
 				<LineComponent width='2.75rem' />
+			</div>
+			<div className={styles.categoryProject}>
+				<CategoryProject />
+			</div>
+			<div className={styles.lineDiv}>
+				<LineComponent />
+			</div>
+			<div className={styles.downloadContent}>
+				<div className={styles.cvContainer}>
+					<div className={styles.btnContent}>
+						<IoIosArrowDropdown />
+					</div>
+					<div className={styles.download}>Download CV</div>
+				</div>
+				<div className={styles.printContainer}>
+					<div className={styles.btnContent}>
+						<AiFillPrinter />
+					</div>
+					<div className={styles.download}>Download CV</div>
+				</div>
 			</div>
 		</div>
 	);
