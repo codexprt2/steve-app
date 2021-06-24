@@ -2,8 +2,10 @@ import React from "react";
 import styles from "../styles/Hoc.module.css";
 import SettingsIcon from "@material-ui/icons/Settings";
 import FlareIcon from "@material-ui/icons/Flare";
-// import CardOne from "./CardOne";
+import { CgFacebook } from "react-icons/cg";
 import CardTwo from "./CardTwo";
+import Link from "next/link";
+import { AiOutlineGoogle, AiOutlineTwitter } from "react-icons/ai";
 
 const Hoc = ({ children }) => {
 	return (
@@ -29,11 +31,59 @@ const Hoc = ({ children }) => {
 				<div className={styles.card1}>
 					{children}
 
-					{/* <CardOne /> */}
+					<div className={styles.lastContent}>
+						<div className={styles.lastContainer}>
+							<p className={styles.paraContainer}>
+								Font by
+								<a
+									className={styles.paraContent}
+									href='https://www.flaticon.com'>
+									flaticon.com
+								</a>
+								Under
+								<a
+									className={styles.paraContent}
+									href='https://creativecommons.org/licenses/by/3.0/'>
+									CC:
+								</a>
+								<a
+									className={styles.paraContent}
+									href='https://www.flaticon.com/authors/eucalyp'>
+									Eucalyp
+								</a>
+							</p>
+						</div>
+					</div>
 				</div>
 
 				<div className={styles.card2}>
 					<CardTwo />
+					<div className={styles.footerDiv}>
+						<p className={styles.footerPara}>© 2020 Mutationthemes.</p>
+						<ul className={styles.ulSocialMediaDiv}>
+							<li className={styles.liSocialMediaDiv}>
+								<Link className={styles.linkContainer} href='#'>
+									<span className={styles.iconContainer}>
+										<CgFacebook />
+									</span>
+								</Link>
+							</li>
+							<li className={styles.liSocialMediaDiv}>
+								<Link className={styles.linkContainer} href='#'>
+									<span className={styles.iconContainer}>
+										<AiOutlineGoogle />
+									</span>
+								</Link>
+							</li>
+							<li className={styles.liSocialMediaDiv}>
+								<Link className={styles.linkContainer} href='#'>
+									<span className={styles.iconContainer}>
+										<AiOutlineTwitter />
+									</span>
+								</Link>
+							</li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</div>

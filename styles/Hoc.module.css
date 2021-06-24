@@ -66,3 +66,101 @@
 	padding-right: 5px;
 	padding-left: 5px;
 }
+.lastContent {
+	display: flex;
+	margin-top: 1.5rem !important;
+	justify-content: center !important;
+	flex-wrap: wrap;
+	margin-right: -15px;
+	margin-left: -15px;
+	align-items: center;
+	margin-bottom: 20px;
+}
+.lastContainer {
+	border-radius: 2rem;
+	box-shadow: inset 3px 3px 3px #202125, inset -3px -3px 3px #353535;
+	text-align: center !important;
+	padding-left: 1.5rem !important;
+	padding-right: 1.5rem !important;
+	padding-bottom: 0.25rem !important;
+	padding-top: 0.25rem !important;
+}
+.paraContainer {
+	font-size: 0.71875rem;
+	margin-bottom: 0 !important;
+	margin-top: 0;
+	text-align: center !important;
+	font-family: "Poppins", Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	line-height: 1.7;
+	color: rgba(255, 255, 255, 0.8);
+	letter-spacing: 0.02rem;
+}
+.paraContent {
+	color: #9da1a5 !important;
+	font-size: 0.71875rem;
+	cursor: pointer;
+	text-align: center !important;
+	font-weight: 400;
+	line-height: 1.7;
+	font-family: "Poppins", Helvetica, Arial, sans-serif;
+	letter-spacing: 0.02rem;
+	margin: 3px;
+}
+.footerDiv {
+	text-align: center !important;
+	margin-top: 2rem !important;
+	font-family: "Poppins", Helvetica, Arial, sans-serif;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.7;
+	color: rgba(255, 255, 255, 0.8);
+	letter-spacing: 0.02rem;
+	margin-bottom: 20px;
+}
+.footerPara {
+	font-size: 0.875rem;
+	color: #9da1a5 !important;
+	margin-bottom: 0.5rem !important;
+}
+.ulSocialMediaDiv {
+	text-align: center !important;
+	margin-bottom: 0 !important;
+	padding-left: 0;
+	list-style: none;
+}
+.liSocialMediaDiv {
+	box-shadow: 3px 3px 3px #202125, -3px -3px 3px #353535;
+	border-radius: 2rem;
+	text-align: center !important;
+	display: inline-block;
+	list-style: none;
+	margin: 4px;
+}
+.linkContainer {
+	cursor: pointer;
+	font-size: 0.75rem;
+	width: 2.5rem;
+	height: 2.5rem;
+	position: relative;
+	padding: 0;
+	color: #9da1a5;
+	background-color: #2c2d30;
+	display: inline-block;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	user-select: none;
+	border: 1px solid transparent;
+	line-height: 1.7;
+	border-radius: 2rem;
+	font-weight: 600;
+}
+.iconContainer {
+	border-radius: 50%;
+	padding: 10px;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	color: #9da1a5;
+}
