@@ -8,13 +8,14 @@ import ContentComponent from "../components/ContentComponent";
 import ServiceContent from "../components/ServiceContent";
 import TestimonialsComponent from "../components/TestimonialsComponent";
 import CertificatsComponent from "../components/CertificatsComponent";
+import LineComponent from "../components/LineComponent";
 const About = () => {
 	return (
 		<div className={styles.mainContainer}>
 			<div className={styles.aboutContainer}>
 				<div className={styles.aboutContent}>ABOUT ME</div>
 				<div>
-					<CgLoadbarAlt size={50} />
+					<LineComponent />
 				</div>
 			</div>
 			<div className={styles.nameContent}>
